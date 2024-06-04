@@ -1,0 +1,17 @@
+{
+    "name": "telemetry-app_2",
+    "version": "1.0.0",
+    "description": "Node.js application to send telemetry data to Google Cloud Pub/Sub",
+    "main": "d2.js",
+    "scripts": {
+        "start": "node d2.js"
+    },
+    "dependencies": {
+        "@google-cloud/pubsub": "^3.1.0",
+        "csv-parser": "^3.0.0",
+        "fs": "0.0.1-security",
+        "node-fetch": "^2.7.0"
+    },
+    "author": "Tu Nombre",
+    "license": "ISC"
+}
